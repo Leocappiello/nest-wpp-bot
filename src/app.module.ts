@@ -4,7 +4,6 @@ import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
 import { MessageModule } from './message/message.module';
-import { MessageService } from './message/message.service';
 
 @Module({
   //imports: [MongooseModule.forRoot('mongodb://localhost/messages')],
